@@ -1,0 +1,35 @@
+.wrapper {
+  padding-top:180px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 1em;
+  width: 100%;
+
+}
+
+.home-image {
+  width: 1110px;
+  height: 350px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+  background-color: var(--bs-gray-200);
+}
+
+.more-info-text {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--bs-gray-600);
+  background-color: "black";
+}
+
+.contact-info-text {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--bs-gray-600);
+  background-color: "black";
+}

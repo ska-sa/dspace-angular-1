@@ -73,6 +73,12 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
             canActivate: [EndUserAgreementCurrentUserGuard]
           },
           {
+            path: 'about',
+            loadChildren: () => import('./about-page/about-page.module')
+              .then((m) => m.AboutPageModule),
+            canActivate: [EndUserAgreementCurrentUserGuard]
+          },
+          {
             path: 'id',
             loadChildren: () => import('./lookup-by-id/lookup-by-id.module')
               .then((m) => m.LookupIdModule),

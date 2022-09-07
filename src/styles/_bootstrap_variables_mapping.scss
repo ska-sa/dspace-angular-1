@@ -36,6 +36,8 @@
   --bs-danger: #{$danger};
   --bs-light: #{$light};
   --bs-dark: #{$dark};
+  //The Specific blue we want
+  --bs-primary-theme: #{$primary-blue};
 
 
   // Set a specific jump point for requesting color jumps

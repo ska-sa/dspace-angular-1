@@ -640,7 +640,7 @@
   "bitstream-request-a-copy.alert.canDownload2": "here",
 
   "bitstream-request-a-copy.header": "Request a copy of the file",
-  
+
   "bitstream-request-a-copy.intro": "Enter the following information to request a copy for the following item: ",
 
   "bitstream-request-a-copy.intro.bitstream.one": "Requesting the following file: ",
@@ -1224,8 +1224,6 @@
   "cookies.consent.decline": "Decline",
 
   "cookies.consent.content-notice.description": "We collect and process your personal information for the following purposes: <strong>Authentication, Preferences, Acknowledgement and Statistics</strong>. <br/> To learn more, please read our {privacyPolicy}.",
-
-  "cookies.consent.content-notice.description.no-privacy": "We collect and process your personal information for the following purposes: <strong>Authentication, Preferences, Acknowledgement and Statistics</strong>.",
 
   "cookies.consent.content-notice.learnMore": "Customize",
 
@@ -2579,7 +2577,9 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Filter By Category",
+
+  "menu.section.browse_global_about": "About Us",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -2701,6 +2701,11 @@
 
   "menu.section.statistics_task": "Statistics Task",
 
+
+// About Us Menu option
+  "menu.section.about": "About Us",
+
+  "menu.section.about_task": "Statistics Task",
 
 
   "menu.section.toggle.access_control": "Toggle Access Control section",
@@ -2838,7 +2843,7 @@
 
   "nav.search": "Search",
 
-  "nav.statistics.header": "Statistics",
+  "nav.statistics.header": "About Us",
 
   "nav.stop-impersonating": "Stop impersonating EPerson",
 
@@ -3234,9 +3239,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title.prefix": "DSpace Angular :: ",
+  "repository.title.prefix": "SARAO Repository:: ",
 
-  "repository.title.prefixDSpace": "DSpace Angular ::",
+  "repository.title.prefixDSpace": "SARAO Repository ::",
 
 
   "resource-policies.add.button": "Add",
@@ -3646,19 +3651,26 @@
 
   "statistics.page.no-data": "No data available",
 
-  "statistics.table.no-data": "No data available",
+  "statistics.table.data": "The South African Radio Astronomy Observatory (SARAO) has embarked on a unique partnership with Ireland-based engineering services and innovative solutions provider InnoGlobal, to bring a short course on Digital Transformation applicable to advanced manufacturing sectors to the African continent.",
 
-  "statistics.table.title.TotalVisits": "Total visits",
+  "statistics.table.title.TotalVisits": "statictics",
 
-  "statistics.table.title.TotalVisitsPerMonth": "Total visits per month",
 
-  "statistics.table.title.TotalDownloads": "File Visits",
 
-  "statistics.table.title.TopCountries": "Top country views",
+// About!
+  "about.title": "About Us",
 
-  "statistics.table.title.TopCities": "Top city views",
+  "about.breadcrumbs": "About Us",
 
-  "statistics.table.header.views": "Views",
+  // "statistics.table.title.TotalVisitsPerMonth": "Total visits per month",
+  //
+  // "statistics.table.title.TotalDownloads": "File Visits",
+  //
+  // "statistics.table.title.TopCountries": "Top country views",
+  //
+  // "statistics.table.title.TopCities": "Top city views",
+  //
+  // "statistics.table.header.views": "Views",
 
 
 
@@ -4235,12 +4247,6 @@
   "submission.sections.accesses.form.until-hint": "Select the date until which the related access condition is applied",
 
   "submission.sections.accesses.form.until-placeholder": "Until",
-
-  "submission.sections.license.granted-label": "I confirm the license above",
-
-  "submission.sections.license.required": "You must accept the license",
-
-  "submission.sections.license.notgranted":  "You must accept the license",
 
 
   "submission.sections.sherpa.publication.information": "Publication information",
