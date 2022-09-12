@@ -15,7 +15,7 @@ import { MenuItemType } from '../shared/menu/menu-item-type.model';
         pathMatch: 'full',
         data: {
           title: 'home.title',
-          // Remove & Add Statistics 
+          // Remove & Add Statistics
           // menu: {
           //   public: [{
           //     id: 'statistics_site',
