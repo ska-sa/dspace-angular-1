@@ -3,11 +3,11 @@ rest:
   host: dspace7.sdp.kat.ac.za
   port: 8080
   nameSpace: /server
+  # ssl: true
+  # host: demo.dspace.org
+  # port: 443
+  # nameSpace: /server
   # ssl: false
   # host: dspace7.sdp.kat.ac.za
   # port: 8080
-  # nameSpace: /server
-  # ssl: true
-  # host: api7.dspace.org
-  # port: 443
   # nameSpace: /server
